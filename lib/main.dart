@@ -1,12 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_demo/app_bar_screen.dart';
-import 'package:widgets_demo/expanded_demo_screen.dart';
-import 'package:widgets_demo/navigation_drawer_screen.dart';
-import 'package:widgets_demo/switches_demo_screen.dart';
-import 'text_demo_screen.dart';
+import 'package:widgets_demo/screens/app_bar_screen.dart';
+import 'package:widgets_demo/screens/expanded_demo_screen.dart';
+import 'package:widgets_demo/screens/listview_screen.dart';
+import 'package:widgets_demo/screens/navigation_demo.dart';
+import 'package:widgets_demo/screens/navigation_drawer_screen.dart';
+import 'package:widgets_demo/screens/switches_demo_screen.dart';
+import 'package:widgets_demo/screens/text_demo_screen.dart';
+import 'package:widgets_demo/screens/theme_demo_screen.dart';
+
+import 'CaseTask/case_task_2_5.dart';
 
 void main() {
 
-  runApp(const ExpandedDemoScreen());
+  runApp(const MyListView());
 
 }
